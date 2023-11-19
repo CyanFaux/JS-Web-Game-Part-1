@@ -11,7 +11,6 @@ function newImage(src, altText, left, bottom) {
 
 function newItem(src, left, bottom) {
     let object = newImage(src, 'Item', left, bottom)
-
   object.addEventListener('dblclick', function(){
     object.remove()
 })
